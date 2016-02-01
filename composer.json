@@ -1,0 +1,20 @@
+{
+    "name": "metrakit/php-proxy-crawler",
+    "description": "A PHP proxy crawler",
+    "type": "application",
+    "require": {
+        "vdb/php-spider": "^0.2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordane Jouffroy",
+            "email": "contact@jordane.net"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Metrakit\\ProxyCrawler": "src/"
+        }
+    }
+}
